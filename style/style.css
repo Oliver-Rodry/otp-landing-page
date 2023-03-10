@@ -37,3 +37,5 @@ article ul {
 :focus:not(:focus-visible) {
     outline: none;
 }
+
+/* Main Style */
