@@ -1,0 +1,39 @@
+/* Boilerplate as suggested by my web research! */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+    -webkit-text-size-adjust: none; /* for iOS Safari */
+    text-size-adjust: none; /* for other mobile browsers */
+  }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
