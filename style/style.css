@@ -39,3 +39,167 @@ article ul {
 }
 
 /* Main Style */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    padding: 10rem;
+}
+
+.content-wraper {
+    display: flex;
+    flex: 0 1 80rem;
+    justify-content: center;
+    padding: 0.8rem;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+
+header > .content-wraper > ul {
+    display: flex;
+    gap: 0.8rem;
+    margin: 0 0 0 auto;
+}
+
+
+.introduction {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-intro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 1rem;
+}
+
+.text-intro > h1 {
+    font-weight: bolder;
+    font-size: 4.8rem;
+    margin: 0;
+}
+
+.text-intro > p {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.text-intro > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10%;
+    padding: 0.4rem 1.6rem;
+}
+
+#intro-img {
+    width: 50%;
+}
+
+.card-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-wraper {
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card {
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10%;
+    height: 10rem;
+}
+
+.quotes-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+
+.quote-container {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote-container > p {
+    margin: 0;
+}
+
+.quote-container > p:nth-child(1) {
+    font-size: 3.6rem;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote-container > p:nth-child(2) {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+.signup-section {
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 8rem;
+}
+
+.signup-wraper {
+    background-color: #3882F6;
+    padding: 0.8rem 16rem;
+    border-radius: 0.8rem;
+    display: flex;
+    gap: 8rem
+}
+
+.signup-text > p {
+    color: #F9FAF8;
+    margin: 0rem;
+}
+
+.signup-wraper > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10%;
+    padding: 0.4rem 1.6rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
