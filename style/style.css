@@ -49,12 +49,12 @@ body {
 
 section {
     display: flex;
-    padding: 10rem;
+    padding: 4rem;
 }
 
 .content-wraper {
     display: flex;
-    flex: 0 1 80rem;
+    flex: 0 1 82rem;
     justify-content: center;
     padding: 0.8rem;
 }
@@ -102,7 +102,7 @@ header > .content-wraper > ul {
 .text-intro > button {
     color: #F9FAF8;
     background-color: #3882F6;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 0.4rem 1.6rem;
 }
 
@@ -111,8 +111,22 @@ header > .content-wraper > ul {
 }
 
 .card-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section > .content-wraper {
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
 }
 
 .card-container {
@@ -122,18 +136,22 @@ header > .content-wraper > ul {
 }
 
 .card-wraper {
-    width: 10rem;
+    width: 15rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 .card {
-    border-width: 0.2rem;
+    border-width: 0.3rem;
     border-style: solid;
     border-color: #3882F6;
     border-radius: 10%;
-    height: 10rem;
+    height: 15rem;
+}
+
+.card-wraper > p {
+    font-size: 1.6rem;
 }
 
 .quotes-section {
@@ -142,7 +160,6 @@ header > .content-wraper > ul {
     align-items: center;
     background-color: #E5E7EB;
 }
-
 
 .quote-container {
     width: 60rem;
@@ -176,25 +193,32 @@ header > .content-wraper > ul {
 
 .signup-wraper {
     background-color: #3882F6;
-    padding: 0.8rem 16rem;
+    padding: 3rem 5rem;
+    width: 70rem;
     border-radius: 0.8rem;
     display: flex;
-    gap: 8rem
 }
 
 .signup-text > p {
+    align-self: start;
     color: #F9FAF8;
     margin: 0rem;
 }
 
+.signup-text > p:nth-child(1) {
+    font-size: large;
+    font-weight: bold;
+}
+
 .signup-wraper > button {
+    margin-left: auto;
     color: #F9FAF8;
     background-color: #3882F6;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 0.4rem 1.6rem;
     border-style: solid;
     border-color: white;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 footer {
@@ -202,4 +226,5 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    color: #F9FAF8;
 }
